@@ -1,0 +1,36 @@
+The dataset is constructed from images of defective production items that were provided and annotated by Kolektor Group d.o.o.. The images were captured in a controlled industrial environment in a real-world case.
+
+The dataset consists of:
+
+    399 images:
+        52 images with visible defects
+        347 images without any defect
+    Original images of sizes:
+        width: 500 px
+        height: from 1240 to 1270 px
+    For training and evaluation images should be resized to 512 x 1408 px
+
+For each item, the defect is only visible in at least one image, while two items have defects on two images, which means there were 52 images where the defects are visible. The remaining 347 images serve as negative examples with non-defective surfaces.
+
+Please cite our paper published in the Journal of Intelligent Manufacturing when using this dataset:
+
+@article{Tabernik2019JIM,
+  author = {Tabernik, Domen and {\v{S}}ela, Samo and Skvar{\v{c}}, Jure and 
+  Sko{\v{c}}aj, Danijel},
+  journal = {Journal of Intelligent Manufacturing},
+  title = {{Segmentation-Based Deep-Learning Approach for Surface-Defect Detection}},
+  year = {2019},
+  month = {May},
+  day = {15},
+  issn={1572-8145},
+  doi={10.1007/s10845-019-01476-x}
+}
+
+
+
+home page: https://www.vicos.si/resources/kolektorsdd/
+
+download url :
+fine annotations：https://go.vicos.si/kolektorsdd
+box annotations: https://go.vicos.si/kolektorsddboxes
+

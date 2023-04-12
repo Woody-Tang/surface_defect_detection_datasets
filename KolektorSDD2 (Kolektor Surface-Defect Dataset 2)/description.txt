@@ -1,0 +1,25 @@
+The dataset is constructed from images of defected production items that were provided and annotated by Kolektor Group d.o.o.. Various types of defects were observed on the surface of the item. The images were captured in a controlled industrial environment.
+
+The dataset consists of:
+
+    356 images with visible defects
+    2979 images without any defect
+    image sizes of approximately 230 x 630 pixels
+    train set with 246 positive and 2085 negative images
+    test set with 110 positive and 894 negative images
+    several different types of defects (scratches, minor spots, surface imperfections, etc.)
+
+Please cite our paper published in the Computers in Industry journal when using this dataset:
+
+@article{Bozic2021COMIND,
+  author = {Bo{\v{z}}i{\v{c}}, Jakob and Tabernik, Domen and 
+  Sko{\v{c}}aj, Danijel},
+  journal = {Computers in Industry},
+  title = {{Mixed supervision for surface-defect detection:
+from weakly to fully supervised learning}},
+  year = {2021}
+}
+
+
+home page:https://www.vicos.si/resources/kolektorsdd2/
+download url: https://go.vicos.si/kolektorsdd2

@@ -1,0 +1,20 @@
+In the Northeastern University (NEU) surface defect database, six kinds of typical surface defects of the hot-rolled steel strip are collected, i.e., rolled-in scale (RS), patches (Pa), crazing (Cr), pitted surface (PS), inclusion (In) and scratches (Sc). The database includes 1,800 grayscale images: 300 samples each of six different kinds of typical surface defects.
+
+Fig. 1 shows the sample images of six kinds of typical surface defects, the original resolution of each image is 200×200 pixels. From Fig. 1, we can clearly observe that the intra-class defects existing large differences in appearance, for instance, the scratches (the last column) may be horizontal scratch, vertical scratch, and slanting scratch, etc. Meanwhile the inter-class defects have similar aspects, e.g., rolled-in scale, crazing, and pitted surface. In addition, due to the influence of the illumination and material changes, the grayscale of the intra-class defect images is varied. In short, the NEU surface defect database includes two difficult challenges, i.e., the intra-class defects existing large differences in appearance while the inter-class defects have similar aspects, the defect images suffer from the influence of illumination and material changes.
+
+For defect detection task, we provided annotations which indicate the class and location of a defect in each image. We have carefully clicked annotations of each target in these images. Fig. 2 shows some examples of detection results on NEU-DET. For each defect, the yellow box is the bounding box indicating its location and the green label is the class score.
+
+If you are using the NEU surface defect database for defect classification task, you only need to download the image-only file, called NEU-CLS.
+
+If you are using the NEU surface defect database for defect detection task, you need to download the image-with-annotations file, called NEU-DET.
+
+Citation:    
+We would appreciate it if you cite our works when using the database:
+
+Yanqi Bao, Kechen Song, Jie Liu, Yanyan Wang, Yunhui Yan, Han Yu, Xingjie Li, “Triplet- Graph Reasoning Network for Few-shot Metal Generic Surface Defect Segmentation,” IEEE Transactions on Instrumentation and Measuremente,  2021.(https://ieeexplore.ieee.org/document/9440451)
+
+K. Song and Y. Yan, “A noise robust method based on completed local binary patterns for hot-rolled steel strip surface defects,” Applied Surface Science, vol. 285, pp. 858-864, Nov. 2013.(http://www.sciencedirect.com/science/article/pii/S0169433213016437)
+
+Yu He, Kechen Song, Qinggang Meng, Yunhui Yan, “An End-to-end Steel Surface Defect Detection Approach via Fusing Multiple Hierarchical Features,” IEEE Transactions on Instrumentation and Measuremente,  2020,69(4),1493-1504.(https://ieeexplore.ieee.org/document/8709818)
+
+home page: http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/

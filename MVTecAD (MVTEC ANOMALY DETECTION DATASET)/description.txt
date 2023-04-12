@@ -1,0 +1,18 @@
+MVTec AD is a dataset for benchmarking anomaly detection methods with a focus on industrial inspection. It contains over 5000 high-resolution images divided into fifteen different object and texture categories. Each category comprises a set of defect-free training images and a test set of images with various kinds of defects as well as images without defects.
+
+Pixel-precise annotations of all anomalies are also provided. More information can be in our paper "MVTec AD – A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection"[1.pdf] and its extended version "The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection"[2.pdf]. 
+
+-the two papers are in the directory named 1.pdf and 2.pdf respectively.
+
+In order to ensure a fair and consistent comparison of new and existing methods on our dataset, we provide python scripts that allow an easy evaluation. For details on how to use the script, please have a look at the included readme file. For details on the metrics used for the evaluation we refer to our corresponding paper.
+-code file is in the directory named mvtec_ad_evaluation.tar.xz
+
+In particular, it is not allowed to use the dataset for commercial purposes. If you are unsure whether or not your application violates the non-commercial use clause of the license, please contact us via the form below.
+
+If you use this dataset in scientific work, please cite our papers:
+
+Paul Bergmann, Kilian Batzner, Michael Fauser, David Sattlegger, Carsten Steger: The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection; in: International Journal of Computer Vision 129(4):1038-1059, 2021, DOI: 10.1007/s11263-020-01400-4.
+
+Paul Bergmann, Michael Fauser, David Sattlegger, Carsten Steger: MVTec AD — A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection; in: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9584-9592, 2019, DOI: 10.1109/CVPR.2019.00982.
+
+home page: https://www.mvtec.com/company/research/datasets/mvtec-ad/
